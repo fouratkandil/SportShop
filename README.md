@@ -1,6 +1,4 @@
-Sure, here's the `README.md` file content with some HTML styling:
 
-```markdown
 <!-- Ecommerce App -->
 <h1 align="center">Ecommerce App</h1>
 
