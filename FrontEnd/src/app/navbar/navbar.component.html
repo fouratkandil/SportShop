@@ -1,0 +1,64 @@
+<section id="nav-bar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img id="i1" src="./assets/media/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a onClick="refreshPage()" class="nav-link active-home" aria-current="page" routerLink=""> ACCEUIL</a>
+          </li>
+          <li class="nav-item">
+            <a onClick="refreshPage()" class="nav-link" href="#i3" routerLink="homme">Homme</a>
+
+
+
+          </li>
+          <li class="nav-item">
+            <a onClick="refreshPage()" class="nav-link" routerLink="femme">Femme</a>
+          </li>
+          <li class="nav-item">
+            <a onClick="refreshPage()" class="nav-link " href="#i2">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    // Add smooth scrolling to all links
+    $("a").on('click', function (event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+
+  
+  function refreshPage() {
+    window.location.reload();
+  }
+
+</script>

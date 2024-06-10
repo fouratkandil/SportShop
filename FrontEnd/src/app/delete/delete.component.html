@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<div class="container " id="contenue">
+  
+  <div class="row">
+    
+    <form>
+      <h3>Supprimer article</h3>
+      <div class="form-group">
+        <label for="FormControlSelect1">Article</label>
+        <select class="form-control FormControlSelect1" id="typebd">
+          <option>Chassures</option>
+          <option>vetements</option>
+          <option>accessoires</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput">id</label>
+        <input type="text" class="form-control formGroupExampleInput" placeholder="id" id="id">
+      </div>
+      <br>
+
+      <div><button type="button" class="btn btn-outline-danger" (click)="delete()">delete</button></div>
+      <br>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="container">
+  <h3>chaussures</h3>
+  <div class="product-items">
+    <!-- single product -->
+    <div class="product" *ngFor="let index of chassures">
+      <div class="product-content">
+        <div class="product-img">
+          <img src="{{index.image}}" id="i1" alt="product image">
+        </div>
+        <div class="product-btns">
+          <button type="button" class="btn-cart"> apperçus
+            <span><i class="fas fa-plus"></i></span>
+          </button>
+          <button type="button" class="btn-buy" routerLink="/paiement"> paiement
+            <span><i class="fas fa-shopping-cart"></i></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="product-info">
+        <div class="product-info-top">
+          <div class="rating">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+        </div>
+        <a href="#" class="product-name">{{index.type}}</a>
+        <a href="#" class="product-name">{{index.nom}}</a>
+        <p class="product-price">{{index.prix}}</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<app-vetementfemme></app-vetementfemme>
+<app-accessoirefemme></app-accessoirefemme>

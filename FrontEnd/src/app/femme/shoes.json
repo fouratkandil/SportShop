@@ -1,0 +1,50 @@
+[
+    {
+        "image":"./assets/media/Produits/Produits Femme/shoes/adidas1.jpg",
+        "description":"MENS SHOES DN 23XX, NEW PRODUCT",
+        "price":"$ 133.00",
+        "remise":"$ 150.00"
+        
+        
+        },
+        {
+            "image":"./assets/media/Produits/Produits Femme/shoes/adidas2.jpg",
+            "description":"MENS SHOES DN 23XX, NEW PRODUCT",
+            "price":"$ 133.00",
+            "remise":"$ 150.00"
+            
+            
+            },
+            {
+                "image":"./assets/media/Produits/Produits Femme/shoes/nike3.jpg",
+                "description":"MENS SHOES DN 23XX, NEW PRODUCT",
+                "price":"$ 133.00",
+                "remise":"$ 150.00"
+                
+                
+                } ,
+                {
+                    "image":"./assets/media/Produits/Produits Femme/shoes/reebok5.jpg",
+                    "description":"MENS SHOES DN 23XX, NEW PRODUCT",
+                    "price":"$ 133.00",
+                    "remise":"$ 150.00"
+                    
+                    
+                    },
+                    {
+                        "image":"./assets/media/Produits/Produits Femme/shoes/reebok6.jpg",
+                        "description":"MENS SHOES DN 23XX, NEW PRODUCT",
+                        "price":"$ 133.00",
+                        "remise":"$ 150.00"
+                        
+                        
+                        },
+                        {
+                            "image":"./assets/media/Produits/Produits Femme/shoes/adidas1.jpg",
+                            "description":"MENS SHOES DN 23XX, NEW PRODUCT",
+                            "price":"$ 133.00",
+                            "remise":"$ 150.00"
+                            
+                            
+                            }
+]
