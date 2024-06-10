@@ -5,7 +5,7 @@ Sure, here's the `README.md` file content with some HTML styling:
 <h1 align="center">Ecommerce App</h1>
 
 <p align="center">
-  <img src="https://yourwebsite.com/logo.png" alt="Logo">
+  <img src="https://previews.123rf.com/images/liubou/liubou1412/liubou141200061/34447086-set-of-various-sports-and-fitness-logo-emblem-graphics-and-icons-shop-sport-products.jpg" alt="Logo">
 </p>
 
 <p align="center">Welcome to the Ecommerce App, a modern and efficient platform designed to meet various ecommerce needs. This application allows users to browse products, manage their cart, and place orders.</p>
